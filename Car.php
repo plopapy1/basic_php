@@ -5,6 +5,7 @@ class Car{
 
 public $name;
 public $color;
+const MESSAGE = 'na you know';
 
 
 function __construct($name, $color)
@@ -52,6 +53,7 @@ class Benz extends Car{
     }
 }
 
+ echo benz :: MESSAGE;
 $benz =  new Benz('mercedes', 'red', '2020');
 
 echo $benz -> print_color();
