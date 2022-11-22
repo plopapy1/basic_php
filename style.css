@@ -1,0 +1,15 @@
+.container {
+    width: 320px;
+    height: auto;
+    /* background: rgb(102, 102, 107); */
+    /* color: #fff; */
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 9px 9px rgb(210, 220, 230);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom:30px ;
+  }
