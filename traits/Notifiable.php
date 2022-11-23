@@ -4,7 +4,7 @@ namespace Traits;
 
 trait Notifiable
 {
-    public function notify
+    public function notify($message)
     {
         ECHO $message . '<br>';
     }
